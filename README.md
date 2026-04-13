@@ -1,0 +1,1 @@
+Its a loan platform to provide service to clients. It was made with react with express
