@@ -4,6 +4,7 @@
   margin-top: 0px;
   padding-top: 60px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0;
 }
 
 .footer-container {
@@ -76,6 +77,8 @@
   border-top: 1px solid #333;
   color: #777;
   font-size: 14px;
+  margin-bottom: 0;
+  padding-bottom: 30px
 }
 
 /* Responsive */
