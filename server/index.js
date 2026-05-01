@@ -12,7 +12,7 @@ connectDB();
 app.use(cors({
   origin: {
     'https://loanaptech-q8us.onrender.com',
-    'https'
+    'https://'
   },
   credentials: true
 }));
