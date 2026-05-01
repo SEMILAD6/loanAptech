@@ -30,7 +30,7 @@ const Login = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8000/api/auth/login", {
+      const response = await fetch("https://loanaptech-q8us.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -46,7 +46,7 @@ const Login = () => {
 
       if (response.ok) {
         alert("Login successful!");
-        navigate("/");
+        navigate("/dashboard");
       } else {
         setError(data.message || "Login failed");
       }

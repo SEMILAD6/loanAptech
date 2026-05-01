@@ -9,6 +9,8 @@ import Faq from './components/Faq.jsx';
 import Home from './components/Home.jsx';
 import  Signup from './components/Signup.jsx';
 import Login from './components/Login.jsx';
+import Dashboard from './components/Dashboard.jsx';
+import Apply from './components/Apply.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/faq" element={<Faq />} />  {/* Add this route for FAQ */}
+          <Route path="/dashboard" element={<Dashboard />} />  {/* Add this route for Dashboard */}
+          <Route path="/apply" element={<Apply />} />  {/* Add this route for Apply */}
         </Routes>
         <Footer />
       </div>
