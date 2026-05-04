@@ -10,10 +10,10 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: {
+  origin: [
     'https://loanaptech-q8us.onrender.com',
-    'https://'
-  },
+    'https://loan-aptech-inky.vercel.app'
+  ],
   credentials: true
 }));
 
