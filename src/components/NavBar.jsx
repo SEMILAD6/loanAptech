@@ -120,7 +120,7 @@ function Navbar() {
           {user && (
             <li>
               <button onClick={handleLogout} className="logout-btn">
-                Logout
+                Log out
               </button>
             </li>
           )}
@@ -187,7 +187,7 @@ function Navbar() {
               setMobileMenuOpen(false);
             }}
           >
-            Logout
+            Log out
           </button>
         )}
       </div>

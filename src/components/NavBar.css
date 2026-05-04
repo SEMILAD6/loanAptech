@@ -66,6 +66,16 @@
   background: #4338ca;
 }
 
+.logout-btn {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
 /* Mobile Toggle */
 .navbar-toggle {
   display: none;
