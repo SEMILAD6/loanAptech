@@ -119,9 +119,9 @@ function Navbar() {
           {/* Logout */}
           {user && (
             <li>
-              <button onClick={handleLogout} className="logout-btn">
+              <Link onClick={handleLogout} className="log-link">
                 Log out
-              </button>
+              </Link>
             </li>
           )}
         </ul>

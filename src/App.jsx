@@ -10,7 +10,7 @@ import Home from './components/Home.jsx';
 import  Signup from './components/Signup.jsx';
 import Login from './components/Login.jsx';
 import Dashboard from './components/Dashboard.jsx';
-import Apply from './components/Apply.jsx';
+import ApplyLoan from './components/ApplyLoan.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
           <Route path="/terms" element={<Terms />} />
           <Route path="/faq" element={<Faq />} />  {/* Add this route for FAQ */}
           <Route path="/dashboard" element={<Dashboard />} />  {/* Add this route for Dashboard */}
-          <Route path="/apply" element={<Apply />} />  {/* Add this route for Apply */}
+          <Route path="/apply" element={<ApplyLoan />} />  {/* Add this route for Apply */}
         </Routes>
         <Footer />
       </div>
